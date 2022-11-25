@@ -1,0 +1,8 @@
+# Folders and Files not shared
+
+_Instructions/**
+assets/css/styles.css.map
+
+# Avoid annoying files 
+
+.DS_Store
