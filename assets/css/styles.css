@@ -1,1 +1,125 @@
-/*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: hsl(219deg, 12%, 42%);
+  font-weight: 500;
+  font-size: 1.6rem;
+  background: hsl(210deg, 60%, 98%);
+}
+
+.notifications {
+  margin: 5rem auto;
+  padding: 4rem 2.5rem;
+  max-width: 72rem;
+  border-radius: 1.5rem;
+  background: hsl(0deg, 0%, 100%);
+}
+.notifications nav {
+  margin: 0 0 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.notifications nav h3 {
+  font-size: 2rem;
+  color: hsl(224deg, 21%, 14%);
+  font-weight: 800;
+}
+.notifications nav h3 span {
+  margin: 0 0 0 0.6rem;
+  padding: 0.2rem 0.9rem;
+  font-size: 1.3rem;
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 0.5rem;
+  background: hsl(219deg, 85%, 26%);
+  position: relative;
+  top: -0.4rem;
+}
+.notifications nav p a {
+  font-size: 1.4rem;
+  color: hsl(219deg, 12%, 42%);
+  text-decoration: none;
+}
+.notifications nav p a:hover {
+  color: hsl(219deg, 85%, 26%);
+}
+.notifications__items {
+  width: 100%;
+}
+.notifications__items .item {
+  margin: 0 0 1rem 0;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  display: flex;
+  align-items: flex-start;
+}
+.notifications__items .item img {
+  margin: 0 1rem 0 0;
+  height: 4rem;
+}
+.notifications__items .item p {
+  margin: 0;
+}
+.notifications__items .item p .user {
+  color: hsl(224deg, 21%, 14%);
+  font-weight: 800;
+  text-decoration: none;
+}
+.notifications__items .item p .user:hover {
+  color: hsl(219deg, 85%, 26%);
+}
+.notifications__items .item p .activity--subject {
+  color: hsl(219deg, 12%, 42%);
+  font-weight: 800;
+  text-decoration: none;
+}
+.notifications__items .item p .activity--subject:hover {
+  color: hsl(219deg, 85%, 26%);
+}
+.notifications__items .item .time {
+  color: hsl(219deg, 14%, 63%);
+}
+.notifications__items .item .message {
+  margin: 1.5rem 0 0 0;
+  padding: 1rem 2rem;
+  color: hsl(219deg, 12%, 42%);
+  cursor: pointer;
+  border: 1px solid hsl(219deg, 14%, 63%);
+  border-radius: 0.4rem;
+}
+.notifications__items .item .message:hover {
+  background-color: hsl(211deg, 68%, 94%);
+  border: 1px solid transparent;
+}
+.notifications__items .item .content--picture {
+  flex: 1;
+  text-align: end;
+}
+.notifications__items .item .content--picture a img {
+  margin: 0;
+}
+.notifications__items .item .content--picture a img:hover {
+  filter: drop-shadow(0 0 3px hsl(219deg, 14%, 63%));
+}
+.notifications__items .item.item--new {
+  background-color: hsl(210deg, 60%, 98%);
+}
+.notifications__items .item.item--new .activity::after {
+  content: "";
+  margin: 0 0 0 0.7rem;
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 5rem;
+  background-color: hsl(1deg, 90%, 64%);
+  display: inline-block;
+  position: relative;
+  top: -0.125rem;
+}/*# sourceMappingURL=styles.css.map */
