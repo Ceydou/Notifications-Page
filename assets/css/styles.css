@@ -1,3 +1,7 @@
+.dnone {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +33,7 @@ body {
   justify-content: space-between;
 }
 .notifications nav h3 {
+  margin: 0;
   font-size: 2rem;
   color: hsl(224deg, 21%, 14%);
   font-weight: 800;
@@ -42,6 +47,9 @@ body {
   background: hsl(219deg, 85%, 26%);
   position: relative;
   top: -0.4rem;
+}
+.notifications nav p {
+  margin: 0;
 }
 .notifications nav p a {
   font-size: 1.4rem;
