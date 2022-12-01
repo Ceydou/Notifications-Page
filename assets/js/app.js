@@ -5,7 +5,7 @@ const countNew = document.querySelector('nav h3 span');
 for(i = 0; i < newItem.length; i++) {
     const allNewItems = newItem[i];
     countNew.textContent = newItem.length;
-    document.title = newItem.length + ' new notifications'
+    document.title = newItem.length + ' new notifications';
 
     allRead.addEventListener('click', () => {
         allRead.classList.add('dnone');
