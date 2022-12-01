@@ -1,4 +1,4 @@
-## 🛎️ Notifications-Page
+## 🛎️ Notifications page
 
 *This exercise is provided by **FrontEnd Mentor** (https://www.frontendmentor.io/)*
 
